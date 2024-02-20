@@ -1,0 +1,6 @@
+# ninja log v5
+701	776	1708466293225159294	linked_list_functions	8f5b32adcc34eb7b
+12	155	1708467014756280441	build.ninja	f31b40f9c2ffd760
+11	701	1708466293148292897	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	8d4c191d3db16ea3
+10	739	1708467018572783403	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	c4635cd427b02f53
+740	816	1708467018651627634	linked_list_functions	8f5b32adcc34eb7b
