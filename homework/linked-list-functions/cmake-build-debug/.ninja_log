@@ -1,6 +1,12 @@
 # ninja log v5
-701	776	1708466293225159294	linked_list_functions	8f5b32adcc34eb7b
-12	155	1708467014756280441	build.ninja	f31b40f9c2ffd760
-11	701	1708466293148292897	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	8d4c191d3db16ea3
-10	739	1708467018572783403	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	c4635cd427b02f53
 740	816	1708467018651627634	linked_list_functions	8f5b32adcc34eb7b
+12	155	1708545810476676073	build.ninja	f31b40f9c2ffd760
+10	739	1708467018572783403	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	c4635cd427b02f53
+1	528	1708545832474983111	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	e0df9180277da0e4
+529	572	1708545832521155134	linked_list_functions	6104bf91d5773433
+1	889	1708621902671234912	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	e0df9180277da0e4
+890	989	1708621902776638078	linked_list_functions	6104bf91d5773433
+1	555	1708621978207951796	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	e0df9180277da0e4
+555	606	1708621978262482986	linked_list_functions	6104bf91d5773433
+1	470	1708622030218071264	CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o	e0df9180277da0e4
+470	525	1708622030275177473	linked_list_functions	6104bf91d5773433

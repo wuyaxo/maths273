@@ -64,16 +64,20 @@ void list_remove_back(node<T> *&list) {
 
 int main() {
     node<char> *my_list = nullptr; // empty list
-    list_insert_before_front(my_list, 'a');
-    list_insert_before_front(my_list, 'b');
+    list_insert_before_front(my_list, 'd');
     list_insert_before_front(my_list, 'c');
+    list_insert_before_front(my_list, 'b');
+    list_insert_before_front(my_list, 'a');
 
-    list_print(my_list);
-    list_remove_front(my_list);
-    list_print(my_list);
-    list_remove_back(my_list);
-    list_print(my_list);
-    list_insert_after_back(my_list, 'd');
-    list_print(my_list);
+    my_list->next->next->next=my_list->next->next;
+    std::cout<<my_list->next->next->next->next->key;
+
+//    list_print(my_list);
+//    list_remove_front(my_list);
+//    list_print(my_list);
+//    list_remove_back(my_list);
+//    list_print(my_list);
+//    list_insert_after_back(my_list, 'd');
+//    list_print(my_list);
 }
 
