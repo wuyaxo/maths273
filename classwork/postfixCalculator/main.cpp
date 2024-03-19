@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "postfix.h"
+#include "postfix.hpp"
 
 
 int main() {

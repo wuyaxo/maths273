@@ -1,6 +1,5 @@
 // Binary search tree basic examples
 #include <iostream>
-//#include <random>
 
 template<typename T>
 struct tree_node {
@@ -48,20 +47,4 @@ bool tree_search(const tree_node<T> *t, const T &key) {
     } else {
         return tree_search(t->left, key) or tree_search(t->right, key);
     }
-}
-
-
-int main() {
-    tree_node<int> *my_tree = nullptr; // empty tree
-
-    // insert random data into the tree
-    for (auto n: {5, 3, 7, 20, 10, 8, 4, 1}) {
-        tree_insert(my_tree, n);
-    }
-
-//    tree_inorder_traversal(my_tree);
-    std::cout << "The height of the BST is:" << tree_height(my_tree) << std::endl;
-    std::cout << "The size of the BST is:" << size(my_tree) << std::endl;
-    std::cout << "search '1' in the BST:" << tree_search(my_tree, 1) << std::endl;
-    std::cout << "search '2' in the BST:" << tree_search(my_tree, 2) << std::endl;
 }

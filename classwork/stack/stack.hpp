@@ -1,5 +1,7 @@
 #include <iostream>
+#include <exception>
 
+#pragma once
 
 template<typename T, int CAPACITY>
 class stack {
@@ -10,12 +12,12 @@ public:
 
     T &top();
 
-    size_t size() const;
+    [[nodiscard]] size_t size() const;
 
 private:
     T storage[CAPACITY];
-    int top_index = 0;
-    const int capacity = CAPACITY;
+    int top_index = -1;
+//    const int capacity = CAPACITY;
 };
 
 template<typename T, int CAPACITY>
@@ -26,16 +28,22 @@ void stack<T, CAPACITY>::push(const T &x) {
 
 template<typename T, int CAPACITY>
 void stack<T, CAPACITY>::pop() {
-    if (top_index > 0) top_index--;
+    if (top_index < 0) {
+        throw std::out_of_range("Empty stack can not execute pop()");
+    } else {
+        top_index--;
+    }
 }
 
 template<typename T, int CAPACITY>
 size_t stack<T, CAPACITY>::size() const {
-    return top_index;
+    return top_index + 1;
 }
 
 template<typename T, int CAPACITY>
 T &stack<T, CAPACITY>::top() {
-    if (top_index == 0) return storage[0];
+    if (top_index == -1) {
+        throw std::underflow_error("Empty stack has no data to display");
+    }
     return storage[top_index - 1];
 }
