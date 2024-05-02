@@ -35,7 +35,7 @@ namespace dll {
         node<T> *new_node = new node<T>{key, front->next, front};
         front->next->prev = new_node;
         front->next = new_node;
-        return new_node;
+        return front;
     }
 
     template<typename T>
@@ -43,25 +43,22 @@ namespace dll {
         node<T> *new_node = new node<T>{key, back, back->prev};
         back->prev->next = new_node;
         back->prev = new_node;
+        return back;
     }
 
     template<typename T>
-    node<T> *insert_in_place(node<T> *&front, node<T> *&p) {
-        node<T> *&back = front->next;
-        while (back->next != nullptr) {
-            back = back->next;
+    node<T> *insert_in_place(node<T> *&front, node<T> *&back, node<T> *&p) {
+        // find out which node should insert before it
+        dll::node<int> *target = back->prev;
+        while (target != front and target->key > p->key) {
+            target = target->prev;
         }
 
-        // find out which node should insert behind it
-        dll::node<int> *ptr = back->prev;
-        while (ptr->prev != front and ptr->key > p->key) {
-            ptr = ptr->prev;
-        }
-
-        ptr->next->prev = p;
-        p->next = ptr->next;
-        ptr->next = p;
-        p->prev = ptr;
+        target->next->prev = p;
+        p->next = target->next;
+        target->next = p;
+        p->prev = target;
+        return front;
     }
 }
 
