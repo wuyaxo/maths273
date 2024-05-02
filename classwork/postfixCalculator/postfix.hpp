@@ -7,6 +7,7 @@
 #include <unordered_set>
 #include <string>
 #include <stack>
+#include <queue>
 #include <sstream>
 #include <exception>
 
@@ -54,6 +55,39 @@ int postfix_calculator(const std::string &str) {
         }
     }
     return S.top();
+}
+
+int prefix_calculator(const std::string &str) {
+    std::stack<int> S;
+    std::string token;
+    for (int i = str.size() - 1; i >= 0; i = i - 2) {
+        char ch = str[i];
+        if (isOperator(ch)) {
+            //pop twice
+            int right = S.top();
+            S.pop();
+            int left = S.top();
+            S.pop();
+            S.push(doOperation(left, right, ch));
+        } else {
+            // push onto stack
+            S.push(ch - '0');
+        }
+    }
+    return S.top();
+}
+
+template<typename T>
+void reverse(std::stack<T> &S) {
+    std::queue<T> temp;
+    while (!S.empty()) {
+        temp.push(S.top());
+        S.pop();
+    }
+    while (!temp.empty()) {
+        S.push(temp.front());
+        temp.pop();
+    }
 }
 
 #define POSTFIXCALCULATOR_POSTFIX_H

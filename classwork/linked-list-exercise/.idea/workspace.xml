@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,41 +21,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d595716-ef65-4927-be2e-c3769fb766ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/Math273.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/.idea/divisible-sum-pairs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8bd0376516a74c3db54a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-10f3aed687a4c7c82110.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c01491485e51780915fe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-20T02-59-57-0183.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/target-divisible_sum_pairs-Debug-713fa605adefe93aa881.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ccbe19dcd09cbd5fdb00.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../divisible-sum-pairs/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../balanced_bst/.idea/balanced_bst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bst/.idea/bst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../postfixCalculator/.idea/postfixCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/.idea/stack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/.idea/exam1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/fibonacci.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/num_threes_in_range.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/print_sequance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/sequence_helper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/sun.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/exam1/vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/project1/.idea/project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/sequence/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/sequence/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/sequence/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/sequence/.idea/sequence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/sequence/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/sequence/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/treap/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/treap/treap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../merge_sort_algorithm/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../merge_sort_algorithm/merge_sort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../merge_sort_algorithm/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/sort_helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../priority_queue/Set.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../priority_queue/Set2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../priority_queue/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../priority_queue/priority_queue_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../treap/treap_node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../balanced_bst/bst.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../balanced_bst/bst.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../balanced_bst/lab08.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../balanced_bst/lab08.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9612ace7b8ae9a69b0ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-741a8f49905cca60321b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a28985cd21600d8c6783.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-20T22-00-13-0764.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-linked_list_exercise-Debug-1203942e1736ad11d7b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ccbe19dcd09cbd5fdb00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linked_list_exercise.dir/linked-list-exercise.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linked_list_exercise.dir/linked-list-exercise.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/linked_list_exercise" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/linked_list_exercise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../postfixCalculator/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../postfixCalculator/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../postfixCalculator/postfix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../postfixCalculator/postfix.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../stack/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testSort/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../testSort/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b64bea760f9fa6a448fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a1571e50a659298bfcf9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8ad355928523a3687ef3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-07T17-41-29-0467.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.cmake/api/v1/reply/target-gcd01-Debug-11bbe50685058d0ee91b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ccbe19dcd09cbd5fdb00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/gcd01.dir/gcd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/gcd01.dir/gcd.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/gcd01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/gcd01.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/gcd01" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/gcd01/cmake-build-debug/gcd01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/CMakeFiles/linked_list_functions.dir/linked-list-functions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/linked_list_functions" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/linked-list-functions/cmake-build-debug/linked_list_functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/linked-list-functions/linked-list-functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/linked-list-functions/linked-list-functions.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,37 +134,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wuyaxo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:wuyaxo/maths273.git",
+    "accountId": "5abf34ca-9140-4aa3-a809-fb79acdf3b4d"
+  }
+}]]></component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ceJuMYGxAuLMXCX2HnVyKB6ZGB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.linked_list_exercise.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.linked_list_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/CLionProjects/Math273/classwork/linked-list-exercise&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -121,6 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1708466333273</updated>
       <workItem from="1708466334584" duration="541000" />
+      <workItem from="1711473502329" duration="11000" />
+      <workItem from="1711473516745" duration="32000" />
+      <workItem from="1711473574247" duration="184000" />
+      <workItem from="1711513711322" duration="19000" />
+      <workItem from="1714497986887" duration="40000" />
+      <workItem from="1714593054245" duration="19000" />
     </task>
     <servers />
   </component>

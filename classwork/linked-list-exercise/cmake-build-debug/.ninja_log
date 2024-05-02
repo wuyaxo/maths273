@@ -1,8 +1,4 @@
 # ninja log v5
-0	98	1708466413751429198	build.ninja	86fc53faf3a1542f
-1	622	1708466414384004456	CMakeFiles/linked_list_exercise.dir/linked-list-exercise.cpp.o	853d272fce9b917c
-625	697	1708466414462660307	linked_list_exercise	e308220f2a03da0b
-8	635	1708466773056593873	CMakeFiles/linked_list_exercise.dir/linked-list-exercise.cpp.o	853d272fce9b917c
-635	731	1708466773155347735	linked_list_exercise	e308220f2a03da0b
-11	617	1708466806567391140	CMakeFiles/linked_list_exercise.dir/linked-list-exercise.cpp.o	853d272fce9b917c
-617	687	1708466806640317034	linked_list_exercise	e308220f2a03da0b
+0	98	1714593057199323746	build.ninja	86fc53faf3a1542f
+2	595	1711473579172352421	CMakeFiles/linked_list_exercise.dir/linked-list-exercise.cpp.o	2644bd238777b694
+596	648	1711473579228405579	linked_list_exercise	8f2bf3a3356481d
