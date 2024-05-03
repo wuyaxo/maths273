@@ -15,7 +15,7 @@ int main() {
     back->prev = my_list;
 
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 4; i++) {
         push_front(my_list, u(e));
     }
 
@@ -35,20 +35,60 @@ int main() {
     new_node->prev = ptr;
 **/
     //test
+//    insertion_sort(front, back);
     list_print(front);
 //    reverse_print(back);
 
-
-    auto new_front = new dll::node<int>{};
-    auto new_back = new dll::node<int>{};
-    dll::node<int> *sorted_list = new dll::node<int>{100, new_back, new_front};
-    new_front->next = sorted_list;
-    new_back->prev = sorted_list;
-    insert_in_place(new_front, new_back, front->next->next);
-    list_print(new_front);
-//    for (auto i = front->next->next; i != nullptr; i = i->next) {
-//        insert_in_place(new_front, new_back, i);
+//    auto copy_front = new dll::node<int>{}; //fake node
+//    auto copy_back = new dll::node<int>{}; //fake node
+//    dll::node<int> *copy = new dll::node<int>{front->next->key, copy_back, copy_front};
+//    copy_front->next = copy;
+//    copy_back->prev = copy;
+//
+//    for (auto i = front->next->next; i->next != nullptr; i = i->next) {
+//        dll::append(copy_back, i->key);
 //    }
-    insert_in_place(new_front, new_back, front->next->next->next);
-    list_print(new_front);
+
+
+//    auto new_front = new dll::node<int>{};
+//    auto new_back = new dll::node<int>{};
+//    dll::node<int> *sorted_list = new dll::node<int>{front->next->key, new_back, new_front};
+//    new_front->next = sorted_list;
+//    new_back->prev = sorted_list;
+
+
+//    front = insert_in_place(front, front->next->next);
+//    list_print(front);
+//    reverse_print(back);
+//
+//    insert_in_place(front, front->next->next);
+//    list_print(front);
+//    reverse_print(back);
+//
+//    insert_in_place(front, front->next->next->next);
+//    list_print(front);
+//    reverse_print(back);
+//
+//    insert_in_place(front, front->next->next->next->next);
+//    list_print(front);
+//    reverse_print(back);
+//
+//    insert_in_place(front, front->next->next->next->next->next);
+//    list_print(front);
+//    reverse_print(back);
+
+//
+//    insert_in_place(front, front->next->next->next->next->next);
+//    list_print(front);
+//    reverse_print(back);
+
+
+
+    insertion_sort(front, back);
+    list_print(front);
+    reverse_print(back);
+
+
+//    insert_in_place(front, front->next->next->next);
+//    list_print(new_front);
 }
